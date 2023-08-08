@@ -34,6 +34,9 @@ func main() {
 	log.SetLogger(logger)
 
 	log.Info("test", "test")
+	// Print:
+	// INFO msg=testtest
+	// INFO msg=testtest
 }
 
 ```
